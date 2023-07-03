@@ -1,0 +1,12 @@
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\bin\Debug\WF1.exe.config
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\bin\Debug\WF1.exe
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\bin\Debug\WF1.pdb
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.csproj.AssemblyReference.cache
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_HelloWorld.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Properties.Resources.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.csproj.GenerateResource.cache
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.csproj.CoreCompileInputs.cache
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.exe
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.pdb
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_DemonstracaoKey.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ValidaSenha.resources
