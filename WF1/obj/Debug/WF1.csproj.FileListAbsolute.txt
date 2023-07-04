@@ -12,3 +12,4 @@ C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\W
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ValidaSenha.resources
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_Mascara.resources
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ValidaCPF.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ValidaCPF2.resources
