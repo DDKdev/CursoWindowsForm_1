@@ -105,6 +105,12 @@ namespace WF1
 
         public void Txt_Senha_KeyDown(object sender, KeyEventArgs e)
         {
+            //curso
+            //ChecaForcaSenha valida = new ChecaForcaSenha();
+            //ChecaForcaSenha.ForcaDaSenha forca;
+            //forca = valida.GetForcaDaSenha(Txt_Senha.Text);
+            //Lbl_Status.Text = forca.ToString();
+
             //instanciamos a classe ChecaforcaSenha;
             //armazenamos cada tecla digitada na string senha
             // o método da classe retorna um estado do tipo ForcaDaSenha por isso o ChecaForcaSenha.ForcaDaSenha checado
@@ -112,13 +118,6 @@ namespace WF1
             ChecaForcaSenha checaSenha = new ChecaForcaSenha();
             string senha = Txt_Senha.Text;
             ChecaForcaSenha.ForcaDaSenha checado = checaSenha.GetForcaDaSenha(senha);
-           
-
-            //curso
-            //ChecaForcaSenha valida = new ChecaForcaSenha();
-            //ChecaForcaSenha.ForcaDaSenha forca;
-            //forca = valida.GetForcaDaSenha(Txt_Senha.Text);
-            //Lbl_Status.Text = forca.ToString();
 
             if((checado.ToString() == "Inaceitavel") || (checado.ToString() == "Fraca"))
             {
@@ -139,10 +138,27 @@ namespace WF1
             }
         }
 
+        bool VisaoSenha = false;
         private void Btn_Limpar_Click(object sender, EventArgs e)
         {
             Txt_Senha.Text = "";
             Lbl_Status.Text = "";
+        }
+
+        private void Btn_VerSenha_Click(object sender, EventArgs e)
+        {
+            if(VisaoSenha == false)
+            {
+                Txt_Senha.PasswordChar = '\0';
+                Btn_VerSenha.Text = "Ocultar Senha";
+                VisaoSenha = true;
+            }
+            else
+            {
+                Txt_Senha.PasswordChar = '*';
+                Btn_VerSenha.Text = "Ver Senha";
+                VisaoSenha = false;
+            }
         }
     }
 }

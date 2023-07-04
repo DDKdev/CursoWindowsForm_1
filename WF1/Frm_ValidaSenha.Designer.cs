@@ -31,12 +31,14 @@
             this.Txt_Senha = new System.Windows.Forms.TextBox();
             this.Lbl_Status = new System.Windows.Forms.Label();
             this.Btn_Limpar = new System.Windows.Forms.Button();
+            this.Btn_VerSenha = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Txt_Senha
             // 
             this.Txt_Senha.Location = new System.Drawing.Point(44, 53);
             this.Txt_Senha.Name = "Txt_Senha";
+            this.Txt_Senha.PasswordChar = '*';
             this.Txt_Senha.Size = new System.Drawing.Size(141, 20);
             this.Txt_Senha.TabIndex = 1;
             this.Txt_Senha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Senha_KeyDown);
@@ -60,11 +62,22 @@
             this.Btn_Limpar.UseVisualStyleBackColor = true;
             this.Btn_Limpar.Click += new System.EventHandler(this.Btn_Limpar_Click);
             // 
+            // Btn_VerSenha
+            // 
+            this.Btn_VerSenha.Location = new System.Drawing.Point(205, 88);
+            this.Btn_VerSenha.Name = "Btn_VerSenha";
+            this.Btn_VerSenha.Size = new System.Drawing.Size(104, 23);
+            this.Btn_VerSenha.TabIndex = 4;
+            this.Btn_VerSenha.Text = "Ver Senha";
+            this.Btn_VerSenha.UseVisualStyleBackColor = true;
+            this.Btn_VerSenha.Click += new System.EventHandler(this.Btn_VerSenha_Click);
+            // 
             // Frm_ValidaSenha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(350, 202);
+            this.Controls.Add(this.Btn_VerSenha);
             this.Controls.Add(this.Btn_Limpar);
             this.Controls.Add(this.Lbl_Status);
             this.Controls.Add(this.Txt_Senha);
@@ -80,5 +93,6 @@
         private System.Windows.Forms.TextBox Txt_Senha;
         private System.Windows.Forms.Label Lbl_Status;
         private System.Windows.Forms.Button Btn_Limpar;
+        private System.Windows.Forms.Button Btn_VerSenha;
     }
 }
