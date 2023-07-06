@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ValidaCPF));
             this.Msk_InputCPF = new System.Windows.Forms.MaskedTextBox();
             this.Btn_Limpar = new System.Windows.Forms.Button();
             this.Btn_Validar = new System.Windows.Forms.Button();
@@ -79,6 +80,7 @@
             this.Controls.Add(this.Btn_Validar);
             this.Controls.Add(this.Btn_Limpar);
             this.Controls.Add(this.Msk_InputCPF);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_ValidaCPF";
             this.Text = "Frm_ValidaCPF";
             this.ResumeLayout(false);

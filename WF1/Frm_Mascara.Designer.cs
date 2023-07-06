@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Mascara));
             this.Msk_Input = new System.Windows.Forms.MaskedTextBox();
             this.Lbl_ModeloMascara = new System.Windows.Forms.Label();
             this.Lbl_VerConteudo = new System.Windows.Forms.Label();
@@ -53,7 +54,7 @@
             this.Lbl_ModeloMascara.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ModeloMascara.Location = new System.Drawing.Point(33, 59);
             this.Lbl_ModeloMascara.Name = "Lbl_ModeloMascara";
-            this.Lbl_ModeloMascara.Size = new System.Drawing.Size(97, 29);
+            this.Lbl_ModeloMascara.Size = new System.Drawing.Size(254, 29);
             this.Lbl_ModeloMascara.TabIndex = 1;
             this.Lbl_ModeloMascara.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -62,7 +63,7 @@
             this.Lbl_VerConteudo.Font = new System.Drawing.Font("Britannic Bold", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_VerConteudo.Location = new System.Drawing.Point(156, 188);
             this.Lbl_VerConteudo.Name = "Lbl_VerConteudo";
-            this.Lbl_VerConteudo.Size = new System.Drawing.Size(113, 40);
+            this.Lbl_VerConteudo.Size = new System.Drawing.Size(131, 40);
             this.Lbl_VerConteudo.TabIndex = 2;
             this.Lbl_VerConteudo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -151,6 +152,7 @@
             this.Controls.Add(this.Lbl_VerConteudo);
             this.Controls.Add(this.Lbl_ModeloMascara);
             this.Controls.Add(this.Msk_Input);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_Mascara";
             this.Text = "Frm_Mascara";
             this.ResumeLayout(false);

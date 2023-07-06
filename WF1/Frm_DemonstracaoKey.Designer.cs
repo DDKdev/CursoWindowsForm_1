@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_DemonstracaoKey));
             this.Txt_Input = new System.Windows.Forms.TextBox();
             this.Txt_Tela = new System.Windows.Forms.TextBox();
             this.Btn_Limpar = new System.Windows.Forms.Button();
@@ -111,6 +112,7 @@
             this.Controls.Add(this.Btn_Limpar);
             this.Controls.Add(this.Txt_Tela);
             this.Controls.Add(this.Txt_Input);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_DemonstracaoKey";
             this.Text = "Frm_DemonstracaoKey";
             this.ResumeLayout(false);

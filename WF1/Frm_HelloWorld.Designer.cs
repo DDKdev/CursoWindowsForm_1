@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_HelloWorld));
             this.Lbl_Titulo = new System.Windows.Forms.Label();
             this.Btn_TrocarTexto = new System.Windows.Forms.Button();
             this.Txt_Conteudo = new System.Windows.Forms.TextBox();
@@ -68,6 +69,7 @@
             this.Controls.Add(this.Txt_Conteudo);
             this.Controls.Add(this.Btn_TrocarTexto);
             this.Controls.Add(this.Lbl_Titulo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_HelloWorld";
             this.Text = "Troca Título";
             this.ResumeLayout(false);
