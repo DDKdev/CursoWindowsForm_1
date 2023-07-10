@@ -14,3 +14,6 @@ C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Release
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Release\WF1.csproj.CoreCompileInputs.cache
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Release\WF1.exe
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Release\WF1.pdb
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\bin\Release\WF1Biblioteca.dll
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\bin\Release\WF1Biblioteca.pdb
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Release\WF1.csproj.CopyComplete

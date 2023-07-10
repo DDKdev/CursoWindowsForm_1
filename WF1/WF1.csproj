@@ -36,7 +36,7 @@
     <StartupObject>WF1.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>balao.ico</ApplicationIcon>
+    <ApplicationIcon>imagens\balao.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,23 +52,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cls_Uteis.cs" />
-    <Compile Include="Frm_DemonstracaoKey.cs">
+    <Compile Include="Formularios\Frm_DemonstracaoKey.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_DemonstracaoKey.Designer.cs">
+    <Compile Include="Formularios\Frm_DemonstracaoKey.Designer.cs">
       <DependentUpon>Frm_DemonstracaoKey.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_HelloWorld.cs">
+    <Compile Include="Formularios\Frm_HelloWorld.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_HelloWorld.Designer.cs">
+    <Compile Include="Formularios\Frm_HelloWorld.Designer.cs">
       <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Mascara.cs">
+    <Compile Include="Formularios\Frm_Mascara.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Mascara.Designer.cs">
+    <Compile Include="Formularios\Frm_Mascara.Designer.cs">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Principal.cs">
@@ -77,45 +76,45 @@
     <Compile Include="Frm_Principal.Designer.cs">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ValidaCPF.cs">
+    <Compile Include="Formularios\Frm_ValidaCPF.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_ValidaCPF.Designer.cs">
+    <Compile Include="Formularios\Frm_ValidaCPF.Designer.cs">
       <DependentUpon>Frm_ValidaCPF.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ValidaCPF2.cs">
+    <Compile Include="Formularios\Frm_ValidaCPF2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_ValidaCPF2.Designer.cs">
+    <Compile Include="Formularios\Frm_ValidaCPF2.Designer.cs">
       <DependentUpon>Frm_ValidaCPF2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ValidaSenha.cs">
+    <Compile Include="Formularios\Frm_ValidaSenha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_ValidaSenha.Designer.cs">
+    <Compile Include="Formularios\Frm_ValidaSenha.Designer.cs">
       <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Frm_DemonstracaoKey.resx">
+    <EmbeddedResource Include="Formularios\Frm_DemonstracaoKey.resx">
       <DependentUpon>Frm_DemonstracaoKey.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_HelloWorld.resx">
+    <EmbeddedResource Include="Formularios\Frm_HelloWorld.resx">
       <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Mascara.resx">
+    <EmbeddedResource Include="Formularios\Frm_Mascara.resx">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_ValidaCPF.resx">
+    <EmbeddedResource Include="Formularios\Frm_ValidaCPF.resx">
       <DependentUpon>Frm_ValidaCPF.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_ValidaCPF2.resx">
+    <EmbeddedResource Include="Formularios\Frm_ValidaCPF2.resx">
       <DependentUpon>Frm_ValidaCPF2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_ValidaSenha.resx">
+    <EmbeddedResource Include="Formularios\Frm_ValidaSenha.resx">
       <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -126,6 +125,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -141,7 +141,26 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="balao.ico" />
+    <Content Include="imagens\balao.ico" />
+    <Content Include="imagens\Frm_DemonstracaoKey.ico" />
+    <Content Include="imagens\Frm_DemonstracaoKey.png" />
+    <Content Include="imagens\Frm_HelloWorld.ico" />
+    <Content Include="imagens\Frm_HelloWorld.png" />
+    <Content Include="imagens\Frm_Mascara.ico" />
+    <Content Include="imagens\Frm_Mascara.png" />
+    <Content Include="imagens\Frm_Principal.ico" />
+    <Content Include="imagens\Frm_ValidaCPF.ico" />
+    <Content Include="imagens\Frm_ValidaCPF.png" />
+    <Content Include="imagens\Frm_ValidaCPF2.ico" />
+    <Content Include="imagens\Frm_ValidaCPF2.png" />
+    <Content Include="imagens\Frm_ValidaSenha.ico" />
+    <Content Include="imagens\Frm_ValidaSenha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WF1Biblioteca\WF1Biblioteca.csproj">
+      <Project>{fbb0d7d2-f549-4f06-a02c-64784178e83b}</Project>
+      <Name>WF1Biblioteca</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

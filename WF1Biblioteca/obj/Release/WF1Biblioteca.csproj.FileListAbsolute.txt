@@ -1,0 +1,6 @@
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1Biblioteca\bin\Release\WF1Biblioteca.dll
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1Biblioteca\bin\Release\WF1Biblioteca.pdb
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1Biblioteca\obj\Release\WF1Biblioteca.csproj.AssemblyReference.cache
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1Biblioteca\obj\Release\WF1Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1Biblioteca\obj\Release\WF1Biblioteca.dll
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1Biblioteca\obj\Release\WF1Biblioteca.pdb
