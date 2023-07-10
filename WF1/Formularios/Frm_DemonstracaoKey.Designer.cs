@@ -114,6 +114,7 @@
             this.Controls.Add(this.Txt_Input);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_DemonstracaoKey";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_DemonstracaoKey";
             this.ResumeLayout(false);
             this.PerformLayout();

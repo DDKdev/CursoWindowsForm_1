@@ -26,17 +26,27 @@ namespace WF1
         private void Btn_Validar_Click(object sender, EventArgs e)
         {
             string cpfDigitado = Msk_InputCPF.Text;
+            string cpfTratado = cpfDigitado.Replace(".", "").Replace("-", "");
+            cpfTratado.Trim();
+
             bool valida = Cls_Uteis.Valida(cpfDigitado);
 
-            if(valida == false)
+            if(cpfTratado.Length != 11 || cpfTratado == "")
             {
-                Lbl_ResultadoValidacao.Text = "CPF INVÁLIDO";
-                Lbl_ResultadoValidacao.ForeColor = Color.Red;
+                MessageBox.Show("O CPF deve conter 11 dígitos", "mensagem de validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                Lbl_ResultadoValidacao.Text = "CPF VÁLIDO";
-                Lbl_ResultadoValidacao.ForeColor = Color.Green;
+                if(valida == false)
+                {
+                    Lbl_ResultadoValidacao.Text = "CPF INVÁLIDO";
+                    Lbl_ResultadoValidacao.ForeColor = Color.Red;
+                }
+                else
+                {
+                    Lbl_ResultadoValidacao.Text = "CPF VÁLIDO";
+                    Lbl_ResultadoValidacao.ForeColor = Color.Green;
+                }
             }
         }
     }

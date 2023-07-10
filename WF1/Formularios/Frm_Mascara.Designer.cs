@@ -154,6 +154,7 @@
             this.Controls.Add(this.Msk_Input);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_Mascara";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Mascara";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -71,6 +71,7 @@
             this.Controls.Add(this.Lbl_Titulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_HelloWorld";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Troca Título";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -84,6 +84,7 @@
             this.Controls.Add(this.Txt_Senha);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_ValidaSenha";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_ValidaSenha";
             this.ResumeLayout(false);
             this.PerformLayout();

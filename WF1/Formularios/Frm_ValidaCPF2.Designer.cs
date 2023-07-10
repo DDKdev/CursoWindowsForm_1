@@ -72,6 +72,7 @@
             this.Controls.Add(this.Msk_InputCPF);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_ValidaCPF2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_ValidaCPF";
             this.ResumeLayout(false);
             this.PerformLayout();
