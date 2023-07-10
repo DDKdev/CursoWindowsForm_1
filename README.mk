@@ -1,3 +1,5 @@
+Esse repositório refere-se a aplicação do aprendizado adquirido na Formação Windows Form com C# disponível da ALURA.
+
 # DemonstraçãoKey
 Este formulário captura a tecla pressionada, adiciona a caixa de texto e apresenta as letras maíúsculas e minúsculas.
 
