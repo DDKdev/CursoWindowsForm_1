@@ -44,6 +44,7 @@
             // 
             // Btn_Limpar
             // 
+            this.Btn_Limpar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Limpar.Location = new System.Drawing.Point(221, 24);
             this.Btn_Limpar.Name = "Btn_Limpar";
             this.Btn_Limpar.Size = new System.Drawing.Size(75, 23);
@@ -54,6 +55,7 @@
             // 
             // Btn_Validar
             // 
+            this.Btn_Validar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Validar.Location = new System.Drawing.Point(221, 53);
             this.Btn_Validar.Name = "Btn_Validar";
             this.Btn_Validar.Size = new System.Drawing.Size(75, 23);

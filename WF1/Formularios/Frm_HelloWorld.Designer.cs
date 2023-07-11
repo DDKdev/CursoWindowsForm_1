@@ -58,18 +58,20 @@
             // 
             this.Txt_Conteudo.Location = new System.Drawing.Point(16, 38);
             this.Txt_Conteudo.Name = "Txt_Conteudo";
-            this.Txt_Conteudo.Size = new System.Drawing.Size(169, 20);
+            this.Txt_Conteudo.Size = new System.Drawing.Size(235, 20);
             this.Txt_Conteudo.TabIndex = 2;
             // 
             // Frm_HelloWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(336, 258);
+            this.ClientSize = new System.Drawing.Size(278, 115);
             this.Controls.Add(this.Txt_Conteudo);
             this.Controls.Add(this.Btn_TrocarTexto);
             this.Controls.Add(this.Lbl_Titulo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Frm_HelloWorld";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Troca Título";

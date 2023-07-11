@@ -40,6 +40,8 @@
             // 
             // Txt_Input
             // 
+            this.Txt_Input.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_Input.Location = new System.Drawing.Point(29, 38);
             this.Txt_Input.Name = "Txt_Input";
             this.Txt_Input.Size = new System.Drawing.Size(287, 20);
@@ -48,6 +50,9 @@
             // 
             // Txt_Tela
             // 
+            this.Txt_Tela.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_Tela.Location = new System.Drawing.Point(29, 83);
             this.Txt_Tela.Multiline = true;
             this.Txt_Tela.Name = "Txt_Tela";
@@ -56,9 +61,10 @@
             // 
             // Btn_Limpar
             // 
-            this.Btn_Limpar.Location = new System.Drawing.Point(360, 38);
+            this.Btn_Limpar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Limpar.Location = new System.Drawing.Point(336, 38);
             this.Btn_Limpar.Name = "Btn_Limpar";
-            this.Btn_Limpar.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Limpar.Size = new System.Drawing.Size(99, 20);
             this.Btn_Limpar.TabIndex = 2;
             this.Btn_Limpar.Text = "Limpar";
             this.Btn_Limpar.UseVisualStyleBackColor = true;
@@ -66,6 +72,7 @@
             // 
             // Lbl_maius
             // 
+            this.Lbl_maius.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_maius.AutoSize = true;
             this.Lbl_maius.Location = new System.Drawing.Point(333, 83);
             this.Lbl_maius.Name = "Lbl_maius";
@@ -75,6 +82,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(333, 146);
             this.label1.Name = "label1";
@@ -84,6 +92,7 @@
             // 
             // Lbl_Maiuscula
             // 
+            this.Lbl_Maiuscula.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Maiuscula.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Lbl_Maiuscula.Location = new System.Drawing.Point(393, 74);
             this.Lbl_Maiuscula.Name = "Lbl_Maiuscula";
@@ -93,6 +102,7 @@
             // 
             // Lbl_Minuscula
             // 
+            this.Lbl_Minuscula.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Minuscula.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Lbl_Minuscula.Location = new System.Drawing.Point(393, 137);
             this.Lbl_Minuscula.Name = "Lbl_Minuscula";
@@ -104,7 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 326);
+            this.ClientSize = new System.Drawing.Size(459, 322);
             this.Controls.Add(this.Lbl_Minuscula);
             this.Controls.Add(this.Lbl_Maiuscula);
             this.Controls.Add(this.label1);

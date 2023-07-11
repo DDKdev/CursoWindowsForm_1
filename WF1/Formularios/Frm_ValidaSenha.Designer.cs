@@ -37,15 +37,19 @@
             // 
             // Txt_Senha
             // 
-            this.Txt_Senha.Location = new System.Drawing.Point(44, 53);
+            this.Txt_Senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Txt_Senha.Location = new System.Drawing.Point(12, 53);
             this.Txt_Senha.Name = "Txt_Senha";
             this.Txt_Senha.PasswordChar = '*';
-            this.Txt_Senha.Size = new System.Drawing.Size(141, 20);
+            this.Txt_Senha.Size = new System.Drawing.Size(173, 20);
             this.Txt_Senha.TabIndex = 1;
             this.Txt_Senha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Senha_KeyDown);
             // 
             // Lbl_Status
             // 
+            this.Lbl_Status.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Status.AutoSize = true;
             this.Lbl_Status.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Status.Location = new System.Drawing.Point(44, 106);
@@ -55,9 +59,10 @@
             // 
             // Btn_Limpar
             // 
-            this.Btn_Limpar.Location = new System.Drawing.Point(219, 49);
+            this.Btn_Limpar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Limpar.Location = new System.Drawing.Point(191, 51);
             this.Btn_Limpar.Name = "Btn_Limpar";
-            this.Btn_Limpar.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Limpar.Size = new System.Drawing.Size(104, 23);
             this.Btn_Limpar.TabIndex = 3;
             this.Btn_Limpar.Text = "Limpar";
             this.Btn_Limpar.UseVisualStyleBackColor = true;
@@ -65,7 +70,8 @@
             // 
             // Btn_VerSenha
             // 
-            this.Btn_VerSenha.Location = new System.Drawing.Point(205, 88);
+            this.Btn_VerSenha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_VerSenha.Location = new System.Drawing.Point(191, 80);
             this.Btn_VerSenha.Name = "Btn_VerSenha";
             this.Btn_VerSenha.Size = new System.Drawing.Size(104, 23);
             this.Btn_VerSenha.TabIndex = 4;
@@ -77,7 +83,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 202);
+            this.ClientSize = new System.Drawing.Size(312, 194);
             this.Controls.Add(this.Btn_VerSenha);
             this.Controls.Add(this.Btn_Limpar);
             this.Controls.Add(this.Lbl_Status);
