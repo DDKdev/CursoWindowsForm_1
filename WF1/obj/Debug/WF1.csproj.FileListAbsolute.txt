@@ -18,3 +18,10 @@ C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\bin\Debug\W
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\bin\Debug\WF1Biblioteca.pdb
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.csproj.CopyComplete
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_Principal_MDI.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_DemonstracaoKey_UC.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_HelloWorld_UC.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_Mascara_UC.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_UC.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ValidaCPF2_UC.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ValidaCPF_UC.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ValidaSenha_UC.resources

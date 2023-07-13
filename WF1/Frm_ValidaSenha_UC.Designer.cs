@@ -1,0 +1,103 @@
+﻿namespace WF1
+{
+    partial class Frm_ValidaSenha_UC
+    {
+        /// <summary> 
+        /// Variável de designer necessária.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Limpar os recursos que estão sendo usados.
+        /// </summary>
+        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código gerado pelo Designer de Componentes
+
+        /// <summary> 
+        /// Método necessário para suporte ao Designer - não modifique 
+        /// o conteúdo deste método com o editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.Btn_VerSenha = new System.Windows.Forms.Button();
+            this.Btn_Limpar = new System.Windows.Forms.Button();
+            this.Lbl_Status = new System.Windows.Forms.Label();
+            this.Txt_Senha = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // Btn_VerSenha
+            // 
+            this.Btn_VerSenha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_VerSenha.Location = new System.Drawing.Point(196, 55);
+            this.Btn_VerSenha.Name = "Btn_VerSenha";
+            this.Btn_VerSenha.Size = new System.Drawing.Size(104, 23);
+            this.Btn_VerSenha.TabIndex = 8;
+            this.Btn_VerSenha.Text = "Ver Senha";
+            this.Btn_VerSenha.UseVisualStyleBackColor = true;
+            this.Btn_VerSenha.Click += new System.EventHandler(this.Btn_VerSenha_Click_1);
+            // 
+            // Btn_Limpar
+            // 
+            this.Btn_Limpar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_Limpar.Location = new System.Drawing.Point(196, 26);
+            this.Btn_Limpar.Name = "Btn_Limpar";
+            this.Btn_Limpar.Size = new System.Drawing.Size(104, 23);
+            this.Btn_Limpar.TabIndex = 7;
+            this.Btn_Limpar.Text = "Limpar";
+            this.Btn_Limpar.UseVisualStyleBackColor = true;
+            this.Btn_Limpar.Click += new System.EventHandler(this.Btn_Limpar_Click_1);
+            // 
+            // Lbl_Status
+            // 
+            this.Lbl_Status.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Lbl_Status.AutoSize = true;
+            this.Lbl_Status.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Status.Location = new System.Drawing.Point(49, 81);
+            this.Lbl_Status.Name = "Lbl_Status";
+            this.Lbl_Status.Size = new System.Drawing.Size(0, 27);
+            this.Lbl_Status.TabIndex = 6;
+            // 
+            // Txt_Senha
+            // 
+            this.Txt_Senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Txt_Senha.Location = new System.Drawing.Point(17, 28);
+            this.Txt_Senha.Name = "Txt_Senha";
+            this.Txt_Senha.PasswordChar = '*';
+            this.Txt_Senha.Size = new System.Drawing.Size(173, 20);
+            this.Txt_Senha.TabIndex = 5;
+            this.Txt_Senha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Senha_KeyDown);
+            // 
+            // Frm_ValidaSenha_UC
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.Btn_VerSenha);
+            this.Controls.Add(this.Btn_Limpar);
+            this.Controls.Add(this.Lbl_Status);
+            this.Controls.Add(this.Txt_Senha);
+            this.Name = "Frm_ValidaSenha_UC";
+            this.Size = new System.Drawing.Size(328, 233);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button Btn_VerSenha;
+        private System.Windows.Forms.Button Btn_Limpar;
+        private System.Windows.Forms.Label Lbl_Status;
+        private System.Windows.Forms.TextBox Txt_Senha;
+    }
+}
