@@ -23,12 +23,17 @@ namespace WF1
         int ControleC1 = 0;
         int ControleC2 = 0;
         int ControleS = 0;
+        int ControleC3 = 0;
+        int ControleA = 0;
+
+
 
         private void demonstraçãoKeyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ControleK += 1;
             Frm_DemonstracaoKey_UC U = new Frm_DemonstracaoKey_UC();
             TabPage TB = new TabPage();
+            TB.Dock = DockStyle.Fill;
             TB.Name = "Demonstração Key " + ControleK;
             TB.Text = "Demonstração Key " + ControleK;
             TB.ImageIndex = 0;
@@ -41,6 +46,7 @@ namespace WF1
             ControleH += 1;
             Frm_HelloWorld_UC U = new Frm_HelloWorld_UC();
             TabPage TB = new TabPage();
+            TB.Dock = DockStyle.Fill;
             TB.Name = "Hello World " + ControleH;
             TB.Text = "Hello World " + ControleH;
             TB.ImageIndex = 1;
@@ -53,6 +59,7 @@ namespace WF1
             ControleM += 1;
             Frm_Mascara_UC U = new Frm_Mascara_UC();
             TabPage TB = new TabPage();
+            TB.Dock = DockStyle.Fill;
             TB.Name = "Máscara " + ControleM;
             TB.Text = "Máscara " + ControleM;
             TB.ImageIndex = 2;
@@ -65,6 +72,7 @@ namespace WF1
             ControleC1 += 1;
             Frm_HelloWorld_UC U = new Frm_HelloWorld_UC();
             TabPage TB = new TabPage();
+            TB.Dock = DockStyle.Fill;
             TB.Name = "Valida CPF " + ControleC1;
             TB.Text = "Valida CPF " + ControleC1;
             TB.ImageIndex = 3;
@@ -77,6 +85,7 @@ namespace WF1
             ControleC2 += 1;
             Frm_ValidaCPF2_UC U = new Frm_ValidaCPF2_UC();
             TabPage TB = new TabPage();
+            TB.Dock = DockStyle.Fill;
             TB.Name = "Valida CPF 2 " + ControleC2;
             TB.Text = "Valida CPF 2 " + ControleC2;
             TB.ImageIndex = 4;
@@ -89,6 +98,7 @@ namespace WF1
             ControleS += 1;
             Frm_ValidaSenha_UC U = new Frm_ValidaSenha_UC();
             TabPage TB = new TabPage();
+            TB.Dock = DockStyle.Fill;
             TB.Name = "Valida Senha " + ControleS;
             TB.Text = "Valida Senha " + ControleS;
             TB.ImageIndex = 5;
@@ -106,6 +116,42 @@ namespace WF1
             if(!(Tbc_Aplicacoes.SelectedTab == null))
             {
                 Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.SelectedTab);
+            }
+        }
+
+        private void validaCPF3BoxDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControleC3 += 1;
+            Frm_ValidaCPF3_UC U = new Frm_ValidaCPF3_UC();
+            TabPage TB = new TabPage();
+            TB.Dock = DockStyle.Fill;
+            TB.Name = "Valida Senha " + ControleC3;
+            TB.Text = "Valida Senha " + ControleC3;
+            TB.ImageIndex = 4;
+            TB.Controls.Add(U);
+            Tbc_Aplicacoes.TabPages.Add(TB);
+        }
+
+        private void abrirImagemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog Db = new OpenFileDialog();
+            Db.InitialDirectory = "C:\\Users\\dnl_3\\OneDrive\\Documentos\\ProjetosGitHub\\PrimeiroWF\\WF1\\imagens";
+            Db.Title = "Escolha a imagem";
+            Db.Filter = "PNG|*.PNG";
+
+            if(Db.ShowDialog() == DialogResult.OK)
+            {
+                string caminhoArquivo = Db.FileName;
+
+                ControleA += 1;
+                Frm_ArquivoImagem_UC U = new Frm_ArquivoImagem_UC(caminhoArquivo);
+                TabPage TB = new TabPage();
+                TB.Dock = DockStyle.Fill;
+                TB.Name = "Imagem " + ControleA;
+                TB.Text = "Imagem " + ControleA;
+                TB.ImageIndex = 2;
+                TB.Controls.Add(U);
+                Tbc_Aplicacoes.TabPages.Add(TB);
             }
         }
     }

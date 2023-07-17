@@ -39,17 +39,21 @@
             this.validarCPFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validarCPF2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.forçaDaSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.validaCPF3BoxDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.apagarAbaSelecionadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.Img_List = new System.Windows.Forms.ImageList(this.components);
-            this.apagarAbaSelecionadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.açõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirImagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.arquivoToolStripMenuItem});
+            this.arquivoToolStripMenuItem,
+            this.açõesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(574, 24);
@@ -74,9 +78,10 @@
             this.máscarasToolStripMenuItem,
             this.validarCPFToolStripMenuItem,
             this.validarCPF2ToolStripMenuItem,
-            this.forçaDaSenhaToolStripMenuItem});
+            this.forçaDaSenhaToolStripMenuItem,
+            this.validaCPF3BoxDToolStripMenuItem});
             this.novoFormulárioToolStripMenuItem.Name = "novoFormulárioToolStripMenuItem";
-            this.novoFormulárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoFormulárioToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.novoFormulárioToolStripMenuItem.Text = "Novo Formulário";
             // 
             // demonstraçãoKeyToolStripMenuItem
@@ -133,10 +138,24 @@
             this.forçaDaSenhaToolStripMenuItem.Text = "Força da Senha";
             this.forçaDaSenhaToolStripMenuItem.Click += new System.EventHandler(this.forçaDaSenhaToolStripMenuItem_Click);
             // 
+            // validaCPF3BoxDToolStripMenuItem
+            // 
+            this.validaCPF3BoxDToolStripMenuItem.Name = "validaCPF3BoxDToolStripMenuItem";
+            this.validaCPF3BoxDToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.validaCPF3BoxDToolStripMenuItem.Text = "Valida CPF 3 Box D";
+            this.validaCPF3BoxDToolStripMenuItem.Click += new System.EventHandler(this.validaCPF3BoxDToolStripMenuItem_Click);
+            // 
+            // apagarAbaSelecionadaToolStripMenuItem
+            // 
+            this.apagarAbaSelecionadaToolStripMenuItem.Name = "apagarAbaSelecionadaToolStripMenuItem";
+            this.apagarAbaSelecionadaToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.apagarAbaSelecionadaToolStripMenuItem.Text = "Apagar Aba Selecionada";
+            this.apagarAbaSelecionadaToolStripMenuItem.Click += new System.EventHandler(this.apagarAbaSelecionadaToolStripMenuItem_Click);
+            // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -161,12 +180,20 @@
             this.Img_List.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
             this.Img_List.Images.SetKeyName(5, "Frm_ValidaSenha.png");
             // 
-            // apagarAbaSelecionadaToolStripMenuItem
+            // açõesToolStripMenuItem
             // 
-            this.apagarAbaSelecionadaToolStripMenuItem.Name = "apagarAbaSelecionadaToolStripMenuItem";
-            this.apagarAbaSelecionadaToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.apagarAbaSelecionadaToolStripMenuItem.Text = "Apagar Aba Selecionada";
-            this.apagarAbaSelecionadaToolStripMenuItem.Click += new System.EventHandler(this.apagarAbaSelecionadaToolStripMenuItem_Click);
+            this.açõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirImagemToolStripMenuItem});
+            this.açõesToolStripMenuItem.Name = "açõesToolStripMenuItem";
+            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.açõesToolStripMenuItem.Text = "Ações";
+            // 
+            // abrirImagemToolStripMenuItem
+            // 
+            this.abrirImagemToolStripMenuItem.Name = "abrirImagemToolStripMenuItem";
+            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.abrirImagemToolStripMenuItem.Text = "Abrir Imagem";
+            this.abrirImagemToolStripMenuItem.Click += new System.EventHandler(this.abrirImagemToolStripMenuItem_Click);
             // 
             // Frm_UC
             // 
@@ -179,7 +206,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Frm_UC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Menu Principal";
+            this.Text = " ";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -202,5 +229,8 @@
         private System.Windows.Forms.TabControl Tbc_Aplicacoes;
         private System.Windows.Forms.ImageList Img_List;
         private System.Windows.Forms.ToolStripMenuItem apagarAbaSelecionadaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem validaCPF3BoxDToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem açõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirImagemToolStripMenuItem;
     }
 }
