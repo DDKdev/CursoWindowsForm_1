@@ -15,6 +15,10 @@ namespace WF1
         public Frm_UC()
         {
             InitializeComponent();
+
+            novoFormulárioToolStripMenuItem.Enabled = false;
+            apagarAbaSelecionadaToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false;
         }
 
         int ControleK = 0;
@@ -152,6 +156,52 @@ namespace WF1
                 TB.ImageIndex = 2;
                 TB.Controls.Add(U);
                 Tbc_Aplicacoes.TabPages.Add(TB);
+            }
+        }
+
+        private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Login f = new Frm_Login();
+            f.ShowDialog();
+
+            string login = f.login;
+            string senha = f.senha;
+
+            if(f.DialogResult == DialogResult.OK)
+            {
+                if (WF1Biblioteca.Cls_Uteis.ValidaSenhaLogin(senha) == true)
+                {
+                    novoFormulárioToolStripMenuItem.Enabled = true;
+                    apagarAbaSelecionadaToolStripMenuItem.Enabled = true;
+                    desconectarToolStripMenuItem.Enabled = true;
+                    conectarToolStripMenuItem.Enabled = false;
+
+                    MessageBox.Show("Bem Vindo " + login + "!!!", "mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Senha incorreta", "mensagem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+            }
+        }
+
+        private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Questao Q = new Frm_Questao("question", "Deseja mesmo desconectar-se?");
+            Q.ShowDialog();
+
+            if(Q.DialogResult == DialogResult.Yes)
+            {
+                for(int i = Tbc_Aplicacoes.TabPages.Count -1; i >= 0; i--)
+                {
+                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                }
+
+                novoFormulárioToolStripMenuItem.Enabled = false;
+                apagarAbaSelecionadaToolStripMenuItem.Enabled = false;
+                desconectarToolStripMenuItem.Enabled = false;
+                conectarToolStripMenuItem.Enabled = true;
             }
         }
     }

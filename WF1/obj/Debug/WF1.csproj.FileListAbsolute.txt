@@ -29,3 +29,4 @@ C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\W
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ValidaCPF3_UC.resources
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.ValidaCPF3_BoxDinamica.resources
 C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_ArquivoImagem_UC.resources
+C:\Users\dnl_3\OneDrive\Documentos\ProjetosGitHub\PrimeiroWF\WF1\WF1\obj\Debug\WF1.Frm_Login.resources

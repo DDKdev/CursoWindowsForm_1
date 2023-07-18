@@ -127,5 +127,17 @@ namespace WF1Biblioteca
                     return ForcaDaSenha.Segura;
             }
         }
+
+        public static bool ValidaSenhaLogin(string senha)
+        {
+            if(senha == "curso")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

@@ -42,10 +42,12 @@
             this.validaCPF3BoxDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apagarAbaSelecionadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
-            this.Img_List = new System.Windows.Forms.ImageList(this.components);
             this.açõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirImagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
+            this.Img_List = new System.Windows.Forms.ImageList(this.components);
+            this.conectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.desconectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +58,7 @@
             this.açõesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(574, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(723, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,7 +67,9 @@
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.novoFormulárioToolStripMenuItem,
             this.apagarAbaSelecionadaToolStripMenuItem,
-            this.sairToolStripMenuItem});
+            this.sairToolStripMenuItem,
+            this.conectarToolStripMenuItem,
+            this.desconectarToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
@@ -140,7 +144,9 @@
             // 
             // validaCPF3BoxDToolStripMenuItem
             // 
+            this.validaCPF3BoxDToolStripMenuItem.Image = global::WF1.Properties.Resources.Frm_HelloWorld;
             this.validaCPF3BoxDToolStripMenuItem.Name = "validaCPF3BoxDToolStripMenuItem";
+            this.validaCPF3BoxDToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D)));
             this.validaCPF3BoxDToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
             this.validaCPF3BoxDToolStripMenuItem.Text = "Valida CPF 3 Box D";
             this.validaCPF3BoxDToolStripMenuItem.Click += new System.EventHandler(this.validaCPF3BoxDToolStripMenuItem_Click);
@@ -159,6 +165,21 @@
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
+            // açõesToolStripMenuItem
+            // 
+            this.açõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirImagemToolStripMenuItem});
+            this.açõesToolStripMenuItem.Name = "açõesToolStripMenuItem";
+            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.açõesToolStripMenuItem.Text = "Ações";
+            // 
+            // abrirImagemToolStripMenuItem
+            // 
+            this.abrirImagemToolStripMenuItem.Name = "abrirImagemToolStripMenuItem";
+            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.abrirImagemToolStripMenuItem.Text = "Abrir Imagem";
+            this.abrirImagemToolStripMenuItem.Click += new System.EventHandler(this.abrirImagemToolStripMenuItem_Click);
+            // 
             // Tbc_Aplicacoes
             // 
             this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -166,7 +187,7 @@
             this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 24);
             this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
             this.Tbc_Aplicacoes.SelectedIndex = 0;
-            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(574, 286);
+            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(723, 322);
             this.Tbc_Aplicacoes.TabIndex = 7;
             // 
             // Img_List
@@ -180,26 +201,25 @@
             this.Img_List.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
             this.Img_List.Images.SetKeyName(5, "Frm_ValidaSenha.png");
             // 
-            // açõesToolStripMenuItem
+            // conectarToolStripMenuItem
             // 
-            this.açõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.abrirImagemToolStripMenuItem});
-            this.açõesToolStripMenuItem.Name = "açõesToolStripMenuItem";
-            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.açõesToolStripMenuItem.Text = "Ações";
+            this.conectarToolStripMenuItem.Name = "conectarToolStripMenuItem";
+            this.conectarToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.conectarToolStripMenuItem.Text = "Conectar";
+            this.conectarToolStripMenuItem.Click += new System.EventHandler(this.conectarToolStripMenuItem_Click);
             // 
-            // abrirImagemToolStripMenuItem
+            // desconectarToolStripMenuItem
             // 
-            this.abrirImagemToolStripMenuItem.Name = "abrirImagemToolStripMenuItem";
-            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.abrirImagemToolStripMenuItem.Text = "Abrir Imagem";
-            this.abrirImagemToolStripMenuItem.Click += new System.EventHandler(this.abrirImagemToolStripMenuItem_Click);
+            this.desconectarToolStripMenuItem.Name = "desconectarToolStripMenuItem";
+            this.desconectarToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.desconectarToolStripMenuItem.Text = "Desconectar";
+            this.desconectarToolStripMenuItem.Click += new System.EventHandler(this.desconectarToolStripMenuItem_Click);
             // 
             // Frm_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 310);
+            this.ClientSize = new System.Drawing.Size(723, 346);
             this.Controls.Add(this.Tbc_Aplicacoes);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -232,5 +252,7 @@
         private System.Windows.Forms.ToolStripMenuItem validaCPF3BoxDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem açõesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem abrirImagemToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem conectarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem desconectarToolStripMenuItem;
     }
 }
